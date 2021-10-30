@@ -17,12 +17,12 @@
 
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="main">
         <div class="container">
             <div class="header__wrapper">
                 <a href="#" class="header__logo wow animate__animated animate__bounceInLeft">
                     <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-                         width="150pt"  viewBox="0 0 1500.000000 1000.000000"
+                         width="150pt" viewBox="0 0 1500.000000 1000.000000"
                          preserveAspectRatio="xMidYMid meet">
                         <g transform="translate(0.000000,1000.000000) scale(0.100000,-0.100000)"
                            stroke="none">
@@ -228,12 +228,12 @@
                 </div>
 
                 <div class="header__info wow animate__animated animate__bounceInDown">
-                    <a href="#" class="address">
+                    <a href="#contacts" class="address">
                         <img src="img/icons/address.svg" alt="address">
                     </a>
                     <div class="info__block">
                         <div class="info__title">Адрес</div>
-                        <a class="info__link" href="#">
+                        <a class="info__link" href="#contacts">
                             г.Киев, <br>
                             ул. Гната Хоткевича, 34</a>
                     </div>
@@ -257,19 +257,19 @@
         <div class="container">
             <div class="navbar__wrapper">
                 <ul class="navbar__list">
-                    <a href="">
+                    <a href="#main">
                         <li class="navbar__list-item">Главная</li>
                     </a>
-                    <a href="">
+                    <a href="#services">
                         <li class="navbar__list-item">Услуги</li>
                     </a>
-                    <a href="">
+                    <a href="#advantages">
                         <li class="navbar__list-item">Преимущества</li>
                     </a>
-                    <a href="">
+                    <a href="#price">
                         <li class="navbar__list-item">Цены</li>
                     </a>
-                    <a href="">
+                    <a href="#contacts">
                         <li class="navbar__list-item">Контакты</li>
                     </a>
                 </ul>
@@ -277,12 +277,12 @@
         </div>
     </nav>
 
-    <section class="services">
+    <section class="services" id="services">
         <div class="container">
             <div class="services__block">
-                <div class="services__title wow animate__animated animate__backInLeft">
+                <h2 class="services__title wow animate__animated animate__backInLeft">
                     Основные услуги
-                </div>
+                </h2>
                 <div class="services__info wow animate__animated animate__fadeIn">
                     <div class="services__info-block">
                         <div class="services__info-item">
@@ -397,7 +397,7 @@
                             <div class="services__info-img">
                                 <img src="img/image6.jpeg" alt="image">
                             </div>
-                            <div href="#" class="services__info-text">
+                            <div class="services__info-text">
                                 <span class="services__info-text--title">
                                     Заказ и подбор запчастей
 
@@ -421,12 +421,12 @@
 
         </div>
     </section>
-    <section class="advantages">
+    <section class="advantages" id="advantages">
         <div class="container">
             <div class="advantages__block">
-                <div class="services__title wow animate__animated animate__backInLeft">
+                <h2 class="services__title wow animate__animated animate__backInLeft">
                     НАШИ ПРЕИМУЩЕСТВА
-                </div>
+                </h2>
             </div>
         </div>
         <div class="paralax">
@@ -460,7 +460,8 @@
                                 ПРОФЕССИОНАЛЬНОЕ ОБОРУДОВАНИЕ
                             </div>
                             <div class="adv__card--text">
-                                Новое оборудование в сочетании с профессионализмом механиков окажут должную помощь вашему авто
+                                Новое оборудование в сочетании с профессионализмом механиков окажут должную помощь
+                                вашему авто
                             </div>
                         </div>
                     </div>
@@ -470,7 +471,8 @@
                                 УДОБНОЕ РАСПОЛОЖЕНИЕ СТО
                             </div>
                             <div class="adv__card--text">
-                                Вы сможете с легкостью нас найти и без проблем добраться к нашей автомастерской с любой точки Киева и области
+                                Вы сможете с легкостью нас найти и без проблем добраться к нашей автомастерской с любой
+                                точки Киева и области
                             </div>
                         </div>
                     </div>
@@ -479,8 +481,664 @@
         </div>
     </section>
 
-    <div class="just-wrap"></div>
+    <section class="price" id="price">
+        <div class="container">
+            <div class="price__block">
+                <h2 class="services__title wow animate__animated animate__backInLeft">ПРАЙС ЛИСТ УСЛУГ</h2>
+            </div>
+            <div class="table wow animate__animated animate__fadeIn">
 
+                <div class="table__body">
+                    <div class="table__body--title">
+                        <div class="table__header">
+                            <div>Наименование услуги</div>
+                            <div>Легковик
+                                <img src="img/icons/car.png" alt="car">
+                            </div>
+                            <div>Внедорожник
+                                <img src="img/icons/jeep.png" alt="jeep">
+                            </div>
+                        </div>
+                        <p class="table__title">Компьютерная диагностика авто</p>
+
+                        <div class="table__body--block">
+                            <div class="table__body--tr">
+                                <div>Компьютерная диагностика авто</div>
+                                <div>250 грн</div>
+                                <div>250 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Диагностика авто ходовая часть</div>
+                                <div>от 250 грн</div>
+                                <div>от 350 грн</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__body--title">
+                        <p class="table__title">Замена технических жидкостей и фильтров</p>
+                        <div class="table__body--block">
+                            <div class="table__body--tr">
+                                <div>Замена масла в ДВС</div>
+                                <div>от 250 грн</div>
+                                <div>от 350 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена масла механической КПП</div>
+                                <div>от 450 грн</div>
+                                <div>от 550 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена воздушного фильтра</div>
+                                <div>от 150 грн</div>
+                                <div>от 150 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена фильтра салона (кондиционер) в бардачке</div>
+                                <div>от 150 грн</div>
+                                <div>от 150 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена фильтра салона (кондиционер) педальный узел</div>
+                                <div>от 350 грн</div>
+                                <div>от 350 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена фильтра топливного подвесного</div>
+                                <div>от 300 грн</div>
+                                <div>от 350 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена фильтра топливного в баке</div>
+                                <div>от 700 грн</div>
+                                <div>от 800 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена фильтра топлива дизельного</div>
+                                <div>от 250 грн</div>
+                                <div>от 300 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Частичная замена жидкости в АКПП с заменой фильтра АКПП</div>
+                                <div>от 1200 грн</div>
+                                <div>от 1400 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Полная замена жидкости АКПП без замены фильтра АКПП</div>
+                                <div>от 1000 грн</div>
+                                <div>от 1000 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Полная замена жидкости АКПП с заменой фильтра АКПП</div>
+                                <div>от 1800 грн</div>
+                                <div>от 2000 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена масла в раздаточной коробке</div>
+                                <div>от 250 грн</div>
+                                <div>от 250 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена жидкости ГУР</div>
+                                <div>от 350 грн</div>
+                                <div>от 450 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена жидкости системы охлаждения</div>
+                                <div>от 350 грн</div>
+                                <div>от 450 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена жидкости системы охлаждения с промывкой</div>
+                                <div>от 600 грн</div>
+                                <div>от 600 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена жидкости коробки с двойным сцеплением (DSG)</div>
+                                <div>от 850 грн</div>
+                                <div>от 1050 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Смазка 1 крестовины карданного вала</div>
+                                <div>от 200 грн</div>
+                                <div>от 300 грн</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__body--title">
+                        <p class="table__title">Тормозная система</p>
+                        <div class="table__body--block">
+                            <div class="table__body--tr">
+                                <div>Замена шланга тормозного</div>
+                                <div>от 350 грн</div>
+                                <div>от 450 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена тормозных колодок дисковых (комплект)</div>
+                                <div>от 300 грн</div>
+                                <div>от 400 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена тормозных колодок барабанных (комплект)</div>
+                                <div>от 600 грн</div>
+                                <div>от 700 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена тормозного барабана</div>
+                                <div>от 400 грн</div>
+                                <div>от 500 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Регулировка ручного тормоза</div>
+                                <div>от 200 грн</div>
+                                <div>от 300 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена колодок ручного тормоза</div>
+                                <div>от 700 грн</div>
+                                <div>от 900 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена троса ручного тормоза (одна сторона)</div>
+                                <div>от 300 грн</div>
+                                <div>от 400 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена тормозного суппорта</div>
+                                <div>от 300 грн</div>
+                                <div>от 400 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена ремкомплекта тормозного суппорта 1 поршень</div>
+                                <div>от 400 грн</div>
+                                <div>от 500 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена ремкомплекта тормозного суппорта 2 поршня</div>
+                                <div>от 600 грн</div>
+                                <div>от 700 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена ремкомплекта тормозного суппорта 4 поршня</div>
+                                <div>от 900 грн</div>
+                                <div>от 1000 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена главного тормозного цилиндра</div>
+                                <div>от 600 грн</div>
+                                <div>от 800 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена тормозного цилиндра рабочего</div>
+                                <div>от 500 грн</div>
+                                <div>от 700 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена вакуумного усилителя тормозов</div>
+                                <div>от 1000 грн</div>
+                                <div>от 1200 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена тормозных дисков с колодками (пара)</div>
+                                <div>от 500 грн</div>
+                                <div>от 600 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена тормозной жидкости</div>
+                                <div>от 300 грн</div>
+                                <div>от 300 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена тормозных колодок задних дисковых с эл. приводом ручного тормоза(комплект)
+                                </div>
+                                <div>от 400 грн</div>
+                                <div>от 500 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Разработка тормозного суппорта</div>
+                                <div>от 600 грн</div>
+                                <div>от 700 грн</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__body--title">
+                        <p class="table__title">Рулевое управление</p>
+                        <div class="table__body--block">
+                            <div class="table__body--tr">
+                                <div>Замена рулевого наконечника</div>
+                                <div>от 350 грн</div>
+                                <div>от 450 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена рулевой тяги</div>
+                                <div>от 300 грн</div>
+                                <div>от 400 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена насоса гидроусилителя</div>
+                                <div>от 1700 грн</div>
+                                <div>от 1900 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена пыльника рулевой рейки</div>
+                                <div>от 300 грн</div>
+                                <div>от 500 грн</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__body--title">
+                        <p class="table__title">Ходовая часть</p>
+                        <div class="table__body--block">
+                            <div class="table__body--tr">
+                                <div>Замена стойки стабилизатора</div>
+                                <div>от 150 грн</div>
+                                <div>от 250 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена втулки стабилизатора</div>
+                                <div>от 200 грн</div>
+                                <div>от 300 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена сайлентблоков рычага</div>
+                                <div>от 600 грн</div>
+                                <div>от 800 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена рычага продольного</div>
+                                <div>от 700 грн</div>
+                                <div>от 900 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена сайлентблоков рычага продольного</div>
+                                <div>от 800 грн</div>
+                                <div>от 1000 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Снятие подрамника</div>
+                                <div>от 900 грн</div>
+                                <div>от 1300 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена шаровой опоры (креп. Болты или заклепки)</div>
+                                <div>от 300 грн</div>
+                                <div>от 400 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена рычага</div>
+                                <div>от 350 грн</div>
+                                <div>от 450 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена подшипника ступицы</div>
+                                <div>от 600 грн</div>
+                                <div>от 700 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена амортизатора без пружины (вставка)</div>
+                                <div>от 350 грн</div>
+                                <div>от 450 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена сайлентблока плавающего</div>
+                                <div>от 500 грн</div>
+                                <div>от 600 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена сайлентблока балки</div>
+                                <div>от 800 грн</div>
+                                <div>от 1000 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена крестовины карданного вала</div>
+                                <div>от 1500 грн</div>
+                                <div>от 1700 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена подвесного подшипника карданного вала</div>
+                                <div>от 1500 грн</div>
+                                <div>от 1700 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена ШРУСа (гранаты)</div>
+                                <div>от 450 грн</div>
+                                <div>от 550 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена подушки двигателя верхней</div>
+                                <div>от 450 грн</div>
+                                <div>от 550 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена подушки двигателя нижней</div>
+                                <div>от 450 грн</div>
+                                <div>от 550 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена втулок стабилизатора со снятием подрамника (2шт)</div>
+                                <div>от 800 грн</div>
+                                <div>от 1200 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена шаровой опоры (запрессованная)</div>
+                                <div>от 500 грн</div>
+                                <div>от 700 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена сайлентблока подрамника</div>
+                                <div>от 1200 грн</div>
+                                <div>от 1400 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена сальника полуоси передней подвески</div>
+                                <div>от 450 грн</div>
+                                <div>от 550 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена сальника полуоси задней подвески</div>
+                                <div>от 700 грн</div>
+                                <div>от 800 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена пневмоамортизатора</div>
+                                <div>от 1400 грн</div>
+                                <div>от 1700 грн</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__body--title">
+                        <p class="table__title">Топливная система</p>
+                        <div class="table__body--block">
+                            <div class="table__body--tr">
+                                <div>Замена бензонасоса подвесного</div>
+                                <div>от 300 грн</div>
+                                <div>от 400 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена бензонасоса погружного (в баке)</div>
+                                <div>от 700 грн</div>
+                                <div>от 800 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замер давления топливного насоса</div>
+                                <div>от 250 грн</div>
+                                <div>от 250 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Диагностика топливных форсунок</div>
+                                <div>от 200 грн</div>
+                                <div>от 200 грн</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__body--title">
+                        <p class="table__title">Система сцепления</p>
+                        <div class="table__body--block">
+                            <div class="table__body--tr">
+                                <div>Замена комплекта сцепления без снятия подрамника</div>
+                                <div>от 1500 грн</div>
+                                <div>от 1800 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена комплекта сцепления со снятием подрамника</div>
+                                <div>от 2700 грн</div>
+                                <div>от 3300 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена комплекта сцепления (полный привод)</div>
+                                <div>от 2100 грн</div>
+                                <div>от 2500 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена сцепления DSG DQ200</div>
+                                <div>от 4000 грн</div>
+                                <div>от 4000 грн</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table__body--title">
+                        <p class="table__title">ГРМ (газораспределительный механизм)</p>
+                        <div class="table__body--block">
+                            <div class="table__body--tr">
+                                <div>Замена комплекта ГРМ бензинового двигателя (8 клапанов)
+                                </div>
+                                <div>от 1000 грн</div>
+                                <div>от 1200 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена комплекта ГРМ бензинового двигателя (16 - 20 клапанов)
+                                </div>
+                                <div>от 1500 грн</div>
+                                <div>от 1800 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена комплекта ГРМ бензинового двигателя (16-20 клапанов) со снятием передней
+                                    части
+                                </div>
+                                <div>от 3000 грн</div>
+                                <div>от 3500 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена комплекта ГРМ бензинового двигателя (6 - 8 цилиндров)</div>
+                                <div>от 2800 грн</div>
+                                <div>от 3000 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена комплекта ГРМ бензинового двигателя (6-8 цилиндров) со снятием передней
+                                    части
+                                </div>
+                                <div>от 3500 грн</div>
+                                <div>от 4000 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена ремня поликлинового</div>
+                                <div>от 250 грн</div>
+                                <div>от 250 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена комплекта ГРМ дизельного двигателя (16 клапанов)</div>
+                                <div>от 2700 грн</div>
+                                <div>от 3000 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена комплекта ГРМ дизельного двигателя (16 клапанов) со снятием передней части
+                                </div>
+                                <div>от 4500 грн</div>
+                                <div>от 5000 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена комплекта ГРМ дизельного двигателя (6-8 цилиндров)</div>
+                                <div>от 5000 грн</div>
+                                <div>от 5500 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена водяного насоса (без снятия ремня ГРМ)</div>
+                                <div>от 600 грн</div>
+                                <div>от 800 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена комплекта цепи ГРМ (3-4 цилиндра)</div>
+                                <div>от 4300 грн</div>
+                                <div>от 4700 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена комплекта цепи ГРМ и цепи масляного насоса (3-4 цилиндра)</div>
+                                <div>от 6000 грн</div>
+                                <div>от 6500 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена комплекта цепи ГРМ (3-4 цилиндра) со снятием передней части</div>
+                                <div>от 3500 грн</div>
+                                <div>от 3400 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена цепи ГРМ (3-4 цилиндра) бензинового или дизельного двигателя со снятием
+                                    двигателя
+                                </div>
+                                <div>от 6500 грн</div>
+                                <div>от 7500 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена комплекта цепи ГРМ без снятия двигателя (6-8 цилиндров)</div>
+                                <div>от 6000 грн</div>
+                                <div>от 6500 грн</div>
+                            </div>
+                            <div class="table__body--tr">
+                                <div>Замена комплекта цепи ГРМ со снятием двигателя (6-8 цилиндров)</div>
+                                <div>от 13500 грн</div>
+                                <div>от 14500 грн</div>
+                            </div>
+                        </div>
+                        <div class="table__body--title">
+                            <p class="table__title">Диагностика автомобиля</p>
+                            <div class="table__body--block">
+                                <div class="table__body--tr">
+                                    <div>Диагностика ходовой части</div>
+                                    <div>от 250 грн</div>
+                                    <div>от 250 грн</div>
+                                </div>
+                                <div class="table__body--tr">
+                                    <div>Диагностика двигателя (ремни, подтекания)</div>
+                                    <div>от 200 грн</div>
+                                    <div>от 250 грн</div>
+                                </div>
+                                <div class="table__body--tr">
+                                    <div>Компьютерная диагностика</div>
+                                    <div>от 250 грн</div>
+                                    <div>от 250 грн</div>
+                                </div>
+                                <div class="table__body--tr">
+                                    <div>Комплексная диагностика (ходовая, двигатель, компьютер, кузов)</div>
+                                    <div>от 1200 грн</div>
+                                    <div>от 1200 грн</div>
+                                </div>
+                                <div class="table__body--tr">
+                                    <div>Измерение компрессии бензинового двигателя (1 цилиндр) без снятия коллектора
+                                    </div>
+                                    <div>от 100 грн</div>
+                                    <div>от 120 грн</div>
+                                </div>
+                                <div class="table__body--tr">
+                                    <div>Диагностика электрооборудования</div>
+                                    <div>от 350 грн</div>
+                                    <div>от 350 грн</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table__body--title">
+                            <p class="table__title">Обслуживание и ремонт системы охлаждения</p>
+                            <div class="table__body--block">
+                                <div class="table__body--tr">
+                                    <div>Замена жидкости системы охлаждения</div>
+                                    <div>от 350 грн</div>
+                                    <div>от 350 грн</div>
+                                </div>
+                                <div class="table__body--tr">
+                                    <div>Замена помпы (без снятия ГРМ)</div>
+                                    <div>от 600 грн</div>
+                                    <div>от 750 грн</div>
+                                </div>
+                                <div class="table__body--tr">
+                                    <div>Замена радиатора двигателя</div>
+                                    <div>от 800 грн</div>
+                                    <div>от 1000 грн</div>
+                                </div>
+                                <div class="table__body--tr">
+                                    <div>Замена патрубка системы охлаждения</div>
+                                    <div>от 200 грн</div>
+                                    <div>от 300 грн</div>
+                                </div>
+                                <div class="table__body--tr">
+                                    <div>Замена термостата</div>
+                                    <div>от 300 грн</div>
+                                    <div>от 400 грн</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table__body--title">
+                            <p class="table__title">Обслуживание системы зажигания</p>
+                            <div class="table__body--block">
+                                <div class="table__body--tr">
+                                    <div>Замена свечей зажигания 4шт</div>
+                                    <div>от 200 грн</div>
+                                    <div>от 200 грн</div>
+                                </div>
+                                <div class="table__body--tr">
+                                    <div>Замена свечей зажигания 4шт со снятием коллектора</div>
+                                    <div>от 600 грн</div>
+                                    <div>от 750 грн</div>
+                                </div>
+                                <div class="table__body--tr">
+                                    <div>Замена свечей зажигания 6шт со снятием коллектора</div>
+                                    <div>от 800 грн</div>
+                                    <div>от 950 грн</div>
+                                </div>
+                                <div class="table__body--tr">
+                                    <div>Замена свечей зажигания 8шт со снятием коллектора</div>
+                                    <div>от 900 грн</div>
+                                    <div>от 1150 грн</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts__block">
+                <h2 class="services__title wow animate__animated animate__backInLeft">
+                    Контакты
+                </h2>
+                <div class="contacts__info">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.6076239148947!2d30.632323651684054!3d50.44840887937433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c551e054ae1d%3A0x39fc938fd6d822ce!2z0YPQuy4g0JPQvdCw0YLQsCDQpdC-0YLQutC10LLQuNGH0LAsIDM0LCDQmtC40LXQsiwgMDIwMDA!5e0!3m2!1sru!2sua!4v1635595300798!5m2!1sru!2sua"
+                            width="70%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <div class="contacts__items">
+                        <div class="header__info bottom__info wow animate__animated animate__bounceInDown">
+                            <a class="phone-num" href="tel:+380675379535">
+                                <img src="img/icons/tel.svg" alt="tel">
+                            </a>
+                            <div class="info__block">
+                                <div class="info__title">Телефон</div>
+                                <a class="info__link" href="tel:+380675379535">+38 (097) 444-34-24</a>
+                            </div>
+                        </div>
+
+                        <div class="header__info bottom__info wow animate__animated animate__bounceInDown">
+                            <a href="#contacts" class="address">
+                                <img src="img/icons/address.svg" alt="address">
+                            </a>
+                            <div class="info__block">
+                                <div class="info__title">Адрес</div>
+                                <a class="info__link" href="https://goo.gl/maps/kFtx3iaUYs5yBJTn6" target="_blank">
+                                    г.Киев, <br>
+                                    ул. Гната Хоткевича, 34</a>
+                            </div>
+                        </div>
+
+                        <div class="header__info bottom__info wow animate__animated animate__bounceInDown">
+                            <img src="img/icons/time.svg" alt="time">
+                            <div class="info__block">
+                                <div class="info__title">Часы работы</div>
+                                <div class="info__link">
+                                    Пн - Пт: 07.00 - 22.00 <br>
+                                    Сб - Вс: 08.00 - 20.00
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__info">
+                Garage Service &copy 2021
+            </div>
+        </div>
+    </footer>
 
     <script src="js/script.js"></script>
 </body>
